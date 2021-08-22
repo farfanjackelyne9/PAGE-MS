@@ -1,0 +1,83 @@
+.ultimo{
+    padding: 3%;
+}
+.footer2{
+    align-items: center;
+}
+.img{
+    margin-left: 5%;
+}
+.img img {
+    width: 180px;
+    height: 52;
+}
+/*inicio footer*/
+.footer2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 8%;
+    margin-right: 5%;
+    column-gap: 0.5em;
+    justify-items: center;   
+}
+.catorce{
+    margin-left: -180%;
+} 
+.doce{
+    width: 350px;  
+}
+.trece{
+    width: 280px;
+}
+
+/*color de letras del footer*/
+.once a{
+    padding: 20%;
+    text-decoration: none;
+    color: #00A651;  
+}
+.doce a{
+    padding: 5%;
+    text-decoration: none;
+    color:#0071BB ;
+}
+.trece a{
+    padding: 5%;
+    text-decoration: none;
+    color: #ED1C24;
+}
+.catorce a{
+    padding: 25%;
+    text-decoration: none;
+    color:  #f705ff;
+}
+/*efecto hover del footer*/
+.once a:hover{
+    background-color: #00A651;
+    color: rgb(255, 255, 255);
+}
+.doce a:hover{
+    background-color: #0071BB;
+    color: rgb(255, 255, 255);
+}
+.trece a:hover{
+    background-color: #ED1C24;
+    color: rgb(255, 255, 255);
+}
+.catorce a:hover{
+    background-color: #f705ff;
+    color: rgb(255, 255, 255);
+}
+hr{
+    width:  80%;
+    margin-left: 9%;
+    border-color: #FFC100;
+}
+#derecho{
+    text-align: center;
+}
+.ultimo1{
+    padding: 0.8%;
+}

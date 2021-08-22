@@ -1,0 +1,83 @@
+.body{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 400px;
+    overflow: visible;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    outline: none;
+    box-shadow: rgb(0 0 0 / 15%) 0 0 15px;
+}
+.body h1 {
+    color:#562023;
+    text-align:left;
+    font-size:  2.625em;
+    font-style: normal;
+    font-family: sans-serif;
+}
+.body h3{
+    font-style: currentColor;
+    color:#562023;
+    font-weight: bold;
+    font-size: 1.2em !important;
+    font-family: Roboto, sans-serif;
+}
+.body h2 {
+    font-size: 1.9em !important;
+    font-style: normal;
+    color:#562023;
+}
+.body p {
+    color: 	#562023;
+}
+.style {
+    color:#562023 ;
+    font-weight: bold;
+}
+
+.style1 {
+    color:#562023 ;
+    font-weight: bold
+}
+.style2 {
+    color:#562023 ;
+    font-weight: bold
+}
+.style3 {
+    color:#562023 ;
+    font-weight: bold
+}
+.icon-whatsapp{
+    
+    color: rgb(233, 240, 233);
+    box-sizing: border-box;
+    background-color: rgb(42, 153, 38);
+}
+.icon-twitter{
+    color: rgb(233, 240, 233);
+    box-sizing: border-box;
+    background-color: rgb(20, 222, 248);
+}
+.icon-linkedin{
+    color: rgba(50, 152, 248, 0.945);
+    box-sizing: border-box;
+    background-color: rgb(251, 253, 253);
+}
+.icon-mail{
+    color: rgba(88, 88, 92, 0.972);
+    box-sizing: border-box;
+    background-color: rgba(252, 253, 253, 0.986);
+}
+.icon-facebook2{
+    color: rgba(21, 24, 184, 0.945);
+    box-sizing: border-box;
+    background-color: rgba(252, 253, 253, 0.986);
+}

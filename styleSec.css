@@ -1,0 +1,244 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+body{
+    background-color: #f1f1f1;
+}
+.secu{
+    margin:20px 270px;
+    background-color: rgb(255, 255, 255);
+    width: 67%;
+    box-sizing: border-box;
+    box-shadow: rgb(0 0 0 / 15%) 0 0 15px;
+}
+.secu h1{
+    font-size: 37px;
+    height: 50px;
+    padding-top: 3%;
+    margin-left: 7.5%;
+}
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --whatsapp: #4ACB5A;
+    --linkendin: #0077B5;
+}
+.social-links{
+    margin-left:7.5% ;
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 34px;
+
+}
+.social-links a{
+    margin: 0 5px;
+    padding: 0.5%;
+    background-color: rgb(138, 138, 138);
+    font-size: 20px;
+    color: #fff;
+}
+.social-links .facebook:hover{
+    background: var(--facebook);
+}
+.social-links .twitter:hover{
+    background: var(--twitter);
+}
+.social-links .in:hover{
+    background: var(--linkendin);
+}
+.social-links .whatsapp:hover{
+    background: var(--whatsapp);
+}
+h1, p, h4{
+    color: #56202A;
+}
+.info1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+}
+.info1 p{
+    font-size: 20px;
+}
+.img1 img{
+    width: 376px;
+    height: 250px;
+    margin-top: 81px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3%;
+    margin-bottom: 1%;
+    row-gap: 1em;
+    column-gap: 1em;
+    justify-items: center;
+}
+.info2{
+    margin-left:15%;
+   
+}
+.img1{
+    margin-right: 7%;
+}
+
+.amarillo{
+    background-color: #FFC100;
+    height: 150px;
+    width: 85%;
+    margin-left: 7%;
+}
+.texto p{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 5%;
+    font-family: italic;
+
+}
+.info3{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left:7.5%;
+    margin-right:7.5% ;
+}
+h4{
+    font-size: 20px;    
+}
+.info4 h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.info5 h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#tres{
+    text-align: center; 
+    margin-bottom: 2%;
+}
+
+.dos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3%;
+    margin-bottom: 1%;
+    row-gap: 1em;
+    column-gap: 1em;
+    justify-items: center;
+    margin-left: 7.5%;
+    margin-right:7.5%;
+}
+.dos1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3%;
+    margin-bottom: 1%;
+    row-gap: 1em;
+    column-gap: 1em;
+    justify-items: center;
+    margin-left: 7.5%;
+    margin-right:7.5%;
+}
+.boton{
+    margin-top: 4%;
+    background-color: #56202A;
+    padding: 3%;
+    border-radius: 15px;
+    width: 40%;
+    text-align: center;
+    margin-left: 25%;
+}
+.boton a{
+    color: #ffffff;
+    
+}
+.ultimo{
+    padding: 3%;
+}
+.footer2{
+    align-items: center;
+}
+.img{
+    margin-left: 5%;
+}
+.img img {
+    width: 180px;
+    height: 52;
+}
+/*inicio footer*/
+.footer2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 8%;
+    margin-right: 5%;
+    column-gap: 0.5em;
+    justify-items: center;   
+}
+.catorce{
+    margin-left: -180%;
+} 
+.doce{
+    width: 350px;  
+}
+.trece{
+    width: 280px;
+}
+
+/*color de letras del footer*/
+.once a{
+    padding: 20%;
+    text-decoration: none;
+    color: #00A651;  
+}
+.doce a{
+    padding: 5%;
+    text-decoration: none;
+    color:#0071BB ;
+}
+.trece a{
+    padding: 5%;
+    text-decoration: none;
+    color: #ED1C24;
+}
+.catorce a{
+    padding: 25%;
+    text-decoration: none;
+    color:  #f705ff;
+}
+/*efecto hover del footer*/
+.once a:hover{
+    background-color: #00A651;
+    color: rgb(255, 255, 255);
+}
+.doce a:hover{
+    background-color: #0071BB;
+    color: rgb(255, 255, 255);
+}
+.trece a:hover{
+    background-color: #ED1C24;
+    color: rgb(255, 255, 255);
+}
+.catorce a:hover{
+    background-color: #f705ff;
+    color: rgb(255, 255, 255);
+}
+hr{
+    width:  80%;
+    margin-left: 9%;
+    border-color: #FFC100;
+}
+#derecho{
+    text-align: center;
+}
+.ultimo1{
+    padding: 0.8%;
+}
